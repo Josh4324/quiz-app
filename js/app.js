@@ -72,15 +72,18 @@ const action2 = () => {
 }
 
 const action3 = (evt) => {
-    if (evt.target.textContent === checkanswers[track]) {
-        evt.target.classList.add("right");
-        res.classList.add("stop");
-        scorecount++;
-        score.textContent = scorecount;
-    } else {
-        evt.target.classList.add("wrong");
-        res.classList.add("stop");
+    if (evt.target.tagName === 'P'){
+        if (evt.target.textContent === checkanswers[track]) {
+            evt.target.classList.add("right");
+            res.classList.add("stop");
+            scorecount++;
+            score.textContent = scorecount;
+        } else {
+            evt.target.classList.add("wrong");
+            res.classList.add("stop");
+        }
     }
+    
 }
 
 
