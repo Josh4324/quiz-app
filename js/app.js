@@ -7,6 +7,8 @@ let score = document.querySelector("#scoreid");
 let qid = document.querySelector("#qid");
 let total = document.querySelector(".total")
 let pg = document.querySelector(".play-again");
+let sbut = document.querySelector("#sbutton");
+let sbut1 = document.querySelector("#sbutton1");
 let track = 0;
 let trackq = 1;
 let scorecount = 0;
@@ -72,7 +74,7 @@ const action2 = () => {
 }
 
 const action3 = (evt) => {
-    if (evt.target.tagName === 'P'){
+    if (evt.target.tagName === 'P') {
         if (evt.target.textContent === checkanswers[track]) {
             evt.target.classList.add("right");
             res.classList.add("stop");
@@ -83,11 +85,11 @@ const action3 = (evt) => {
             res.classList.add("stop");
         }
     }
-    
+
 }
 
 
 next.addEventListener("click", action);
-start.addEventListener("click", action2)
+sbut.addEventListener("click", action2)
 res.addEventListener("click", action3)
-pg.addEventListener("click",action2)
+sbut1.addEventListener("click", action2)

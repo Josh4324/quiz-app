@@ -141,6 +141,20 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#sbutton1 {
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+
 
 /* Large (lg) */
 @media (min-width: 1024px) {
