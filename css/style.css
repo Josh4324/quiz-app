@@ -82,12 +82,35 @@ body {
 .wrong {
     background-color: red;
     color: white;
+    animation: shake 0.5s linear;
 }
 
 .right {
     background-color: green;
     color: white;
 }
+
+@keyframes shake {
+    0% {
+      transform: translate(0);
+    }
+    20% {
+      transform: translate(1.5em);
+    }
+    40% {
+      transform: translate(-1.5em);
+    }
+    60% {
+      transform: translate(1.5em);
+    }
+    80% {
+      transform: translate(-1.5em);
+    }
+    100% {
+      transform: translate(0);
+    }
+  }
+  
 
 .start {
     width: 90%;
