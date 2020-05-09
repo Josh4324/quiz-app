@@ -82,6 +82,7 @@ const action3 = (evt) => {
             score.textContent = scorecount;
         } else {
             evt.target.classList.add("wrong");
+            evt.target.classList.add("right");
             res.classList.add("stop");
         }
     }
