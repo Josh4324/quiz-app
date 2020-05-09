@@ -7,7 +7,7 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color: white;
-    box-shadow: 0 0 15px rgb(200, 216, 226);
+    box-shadow: 0 0 20px rgb(104, 103, 103);
     border-radius: 10px;
 }
 
@@ -20,7 +20,7 @@
 .ans {
     padding-left: 10px;
     background-color: rgb(119, 154, 231);
-    box-shadow: 0 0 15px rgb(200, 216, 226);
+    box-shadow: 4px 4px 4px 2px rgb(204, 195, 195);
     border-radius: 5px;
     width: 90%;
     margin-left: auto;
