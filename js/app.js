@@ -82,6 +82,14 @@ const action3 = (evt) => {
             score.textContent = scorecount;
         } else {
             evt.target.classList.add("wrong");
+            let ans = document.querySelectorAll(".ans");
+            ans = Array.from(ans);
+            ans.map((item) => {
+                if(item.textContent === checkanswers[track]){
+                    item.classList.add("right");
+                }
+            })
+
             res.classList.add("stop");
         }
     }
