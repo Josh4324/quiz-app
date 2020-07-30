@@ -1,195 +1,192 @@
 .game {
-    width: 90%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: white;
-    box-shadow: 0 0 20px rgb(104, 103, 103);
-    border-radius: 10px;
+  width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 0 20px rgb(104, 103, 103);
+  border-radius: 10px;
 }
 
 .que {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .ans {
-    padding-left: 10px;
-    background-color: rgb(119, 154, 231);
-    box-shadow: 4px 4px 4px 2px rgb(204, 195, 195);
-    border-radius: 5px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
+  padding-left: 10px;
+  background-color: rgb(119, 154, 231);
+  box-shadow: 4px 4px 4px 2px rgb(204, 195, 195);
+  border-radius: 5px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
 }
 
 #score {
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 #scoreid {
-    padding: 5px;
+  padding: 5px;
 }
 
 #qid {
-    padding: 5px;
+  padding: 5px;
 }
 
 .stop {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .qn {
-    float: right;
+  float: right;
 }
 
 #button {
-    display: block;
-    width: 90%;
-    height: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-    font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  font-family: "Poppins", sans-serif;
 }
 
 .title {
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 900;
-    font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: "Lobster", cursive;
 }
 
 body {
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 
 .none {
-    display: none;
+  display: none;
 }
 
 .wrong {
-    background-color: red;
-    color: white;
-    animation: shake 0.5s linear;
+  background-color: red;
+  color: white;
+  animation: shake 0.5s linear;
 }
 
 .right {
-    background-color: green;
-    color: white;
+  background-color: green;
+  color: white;
 }
 
 @keyframes shake {
-    0% {
-      transform: translate(0);
-    }
-    20% {
-      transform: translate(1.5em);
-    }
-    40% {
-      transform: translate(-1.5em);
-    }
-    60% {
-      transform: translate(1.5em);
-    }
-    80% {
-      transform: translate(-1.5em);
-    }
-    100% {
-      transform: translate(0);
-    }
+  0% {
+    transform: translate(0);
   }
-  
+  20% {
+    transform: translate(1.5em);
+  }
+  40% {
+    transform: translate(-1.5em);
+  }
+  60% {
+    transform: translate(1.5em);
+  }
+  80% {
+    transform: translate(-1.5em);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 
 .start {
-    width: 90%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: white;
-    box-shadow: 0 0 15px rgb(200, 216, 226);
-    border-radius: 10px;
+  width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 0 15px rgb(200, 216, 226);
+  border-radius: 10px;
 }
 
 .tscore {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .play-again {
-    width: 90%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    background-color: white;
-    box-shadow: 0 0 15px rgb(200, 216, 226);
-    border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+  width: 90%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 0 15px rgb(200, 216, 226);
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
 }
 
 .stitle {
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 900;
-    font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: "Lobster", cursive;
 }
 
 #sbutton {
-    display: block;
-    width: 90%;
-    height: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-    font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  font-family: "Poppins", sans-serif;
 }
 
 #sbutton1 {
-    display: block;
-    width: 90%;
-    height: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-    font-family: 'Poppins', sans-serif;
+  display: block;
+  width: 90%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  font-family: "Poppins", sans-serif;
 }
-
-
 
 /* Large (lg) */
 @media (min-width: 1024px) {
-    .game {
-        width: 50%
-    }
+  .game {
+    width: 50%;
+  }
 
-    .start {
-        width: 50%
-    }
+  .start {
+    width: 30%;
+  }
 
-    .play-again {
-        width: 50%
-    }
+  .play-again {
+    width: 30%;
+  }
 }
